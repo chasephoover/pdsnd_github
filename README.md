@@ -4,7 +4,7 @@
 Thursday, August 5th, 2021
 
 ### Project Title
-Bikeshare Python Project
+Bikeshare Python Project for Chicago, NYC, DC
 
 ### Description
 This project allows the user to specify parameters regarding Chicago, NYC, or Washington as well
@@ -18,4 +18,3 @@ washington.csv
 
 ### Credits
 Content inspired from Udacity Nanodegree Course <3
-
