@@ -18,3 +18,6 @@ washington.csv
 
 ### Credits
 Content inspired from Udacity Nanodegree Course <3
+
+### Author
+Chase Hoover
