@@ -1,3 +1,8 @@
+"""V1.0
+Created by: Chase Hoover
+Updated: 8/9/2021 to push to Github
+"""
+
 import time
 import pandas as pd
 import numpy as np
