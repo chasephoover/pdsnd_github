@@ -9,6 +9,8 @@ Bikeshare Python Project for Chicago, NYC, DC
 ### Description
 This project allows the user to specify parameters regarding Chicago, NYC, or Washington as well
 as the month and day to analyze bike share trends.
+Follow the prompts in the Python program for guidance while executing the
+program.
 
 ### Files used
 bikeshare.py
