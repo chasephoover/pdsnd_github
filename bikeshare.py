@@ -31,10 +31,12 @@ def get_filters():
             print('That\'s not a valid city!')
 
     # TO DO: get user input for month (all, january, february, ... , june)
+    monthlist = ['jan','feb','mar','apr','may','jun','all']
+
     while True:
         try:
             month = str(input("Input the month to analyze: Jan, Feb...Jun (or all to analyze all months) ")).lower()
-            if month not in ('jan','feb','mar','apr','may','jun','all'):
+            if month not in monthlist:
                 print("Month was input incorrectly, please retry")
             else:
                 break
