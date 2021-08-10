@@ -45,10 +45,12 @@ def get_filters():
             print('That\'s not a valid month!')
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    daylist = ['mon','tue','wed','thu','fri','sat','sun','all']
+
     while True:
         try:
             day = str(input("Input the day to analyze: Mon, Tue, ... Sun (or all to analyze all days) ")).lower()
-            if day not in ('mon','tue','wed','thu','fri','sat','sun','all'):
+            if day not in daylist:
                 print('Day was input incorrectly, please retry')
             else:
                 break
