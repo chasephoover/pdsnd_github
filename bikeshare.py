@@ -22,10 +22,12 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    citylist = ['chicago','new york city','washington']
+
     while True:
         try:
             city = str(input("Input the city to analyze: Chicago, New York City, or Washington ").lower())
-            if city not in ('chicago','new york city','washington'):
+            if city not in citylist:
                 print("City was input incorrectly, please retry")
             else:
                 break
@@ -34,10 +36,12 @@ def get_filters():
             print('That\'s not a valid city!')
 
     # TO DO: get user input for month (all, january, february, ... , june)
+    monthlist = ['jan','feb','mar','apr','may','jun','all']
+
     while True:
         try:
             month = str(input("Input the month to analyze: Jan, Feb...Jun (or all to analyze all months) ")).lower()
-            if month not in ('jan','feb','mar','apr','may','jun','all'):
+            if month not in monthlist:
                 print("Month was input incorrectly, please retry")
             else:
                 break
@@ -46,10 +50,12 @@ def get_filters():
             print('That\'s not a valid month!')
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    daylist = ['mon','tue','wed','thu','fri','sat','sun','all']
+
     while True:
         try:
             day = str(input("Input the day to analyze: Mon, Tue, ... Sun (or all to analyze all days) ")).lower()
-            if day not in ('mon','tue','wed','thu','fri','sat','sun','all'):
+            if day not in daylist:
                 print('Day was input incorrectly, please retry')
             else:
                 break
